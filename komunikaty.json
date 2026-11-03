@@ -1,4 +1,14 @@
 {
   "enabled": true,
-  "messages": []
+  "messages": [
+    {
+      "id": "ogloszenie-1793744728785",
+      "title": "TEST1",
+      "body": "TEST2",
+      "type": "normal",
+      "date": "2026-11-03",
+      "expires": "",
+      "url": ""
+    }
+  ]
 }
