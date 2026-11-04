@@ -1,14 +1,15 @@
-{
+
   "enabled": true,
   "messages": [
     {
-      "id": "ogloszenie-1793744728785",
-      "title": "lol",
-      "body": "w chuj lolów",
-      "type": "normal",
-      "date": "2026-11-03",
+      "id": "ogloszenie-1793750635827",
+      "title": "666888",
+      "body": "666888",
+      "type": "urgent",
+      "date": "2026-11-04",
       "expires": "",
       "url": ""
     }
   ]
 }
+
