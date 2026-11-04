@@ -1,11 +1,11 @@
-ry{
+{
   "enabled": true,
   "messages": [
     {
       "id": "ogloszenie-1793753911724",
       "title": "chery",
       "body": "tiggo",
-      "type": "000",
+      "type": "urgent",
       "date": "2026-11-04",
       "expires": "",
       "url": ""
