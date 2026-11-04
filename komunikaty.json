@@ -2,14 +2,14 @@
   "enabled": true,
   "messages": [
     {
-      "id": "ogloszenie-1793759381285-vdvei",
-      "title": "111222",
-      "body": "333444",
-      "type": "urgent",
+      "id": "ogloszenie-20261104-test-jednorazowy-01",
+      "title": "Test",
+      "body": "test komunikat jednorazowy.",
+      "type": "normal",
       "date": "2026-11-04",
       "expires": "",
       "url": "",
-      "mode": "pinned",
+      "mode": "once",
       "maxDisplays": 5
     }
   ]
