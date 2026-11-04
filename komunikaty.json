@@ -2,13 +2,37 @@
   "enabled": true,
   "messages": [
     {
-      "id": "ogloszenie-1793753911724",
-      "title": "hh",
-      "body": "88",
+      "id": "ogloszenie-1793759033948-3y7x7",
+      "title": "kasia",
+      "body": "kasiaaaaaaaaa",
       "type": "urgent",
       "date": "2026-11-04",
       "expires": "",
-      "url": ""
+      "url": "",
+      "mode": "repeat_n",
+      "maxDisplays": 5
+    },
+    {
+      "id": "ogloszenie-1793759090014-05ral",
+      "title": "uuuu",
+      "body": "yyyy",
+      "type": "normal",
+      "date": "2026-11-04",
+      "expires": "",
+      "url": "",
+      "mode": "once",
+      "maxDisplays": 5
+    },
+    {
+      "id": "ogloszenie-1793759143029-8s3gr",
+      "title": "skrzat",
+      "body": "tttttttttuuuuu",
+      "type": "urgent",
+      "date": "2026-11-04",
+      "expires": "",
+      "url": "",
+      "mode": "pinned",
+      "maxDisplays": 5
     }
   ]
 }
