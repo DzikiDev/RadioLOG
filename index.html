@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071a31">
+<meta name="description" content="RadioLOG — bezpłatny dziennik łączności QSO na Androida. Wyszukuj korespondentów, przeglądaj mapę i odległości. CB, PMR 446, 2 m i 70 cm. Bez reklam.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dzikidev.github.io/RadioLOG/">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:title" content="RadioLOG — Twoje łączności zawsze pod ręką">
+<meta property="og:description" content="Zapisuj i łatwo odnajduj QSO. Mapa łączności, QRB, korespondenci i statystyki. Darmowy i bez reklam.">
+<meta property="og:image" content="https://dzikidev.github.io/RadioLOG/assets/og-cover.jpg">
+<title>RadioLOG — Dziennik łączności QSO na Androida</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<div class="dark-top">
+ <header class="site-header"><div class="container nav">
+  <a class="brand" href="#start" aria-label="RadioLOG — początek strony"><svg aria-hidden="true" width="36" height="36" viewBox="0 0 64 64" fill="none"><path d="M32 8C19.3 8 9 18.3 9 31c0 15.3 23 27 23 27s23-11.7 23-27C55 18.3 44.7 8 32 8Z" stroke="#86c8ff" stroke-width="3"/><rect x="23" y="22" width="18" height="23" rx="5" fill="#d8efff"/><path d="M32 13v9m-5 9h10m-10 6h10" stroke="#114273" stroke-width="2.5" stroke-linecap="round"/><circle cx="32" cy="41" r="2" fill="#1b69cc"/></svg><b>Radio<span>LOG</span></b></a>
+  <nav class="nav-links" id="site-nav" aria-label="Nawigacja główna"><a href="#historia">Historia</a><a href="#funkcje">Funkcje</a><a href="#galeria">Galeria</a><a href="#wspieraj">Wesprzyj</a><a href="pomoz.html">Pomóż rozwijać</a><a href="kontakt.html">Kontakt</a></nav>
+  <button type="button" class="nav-menu-btn" aria-label="Otwórz menu" aria-expanded="false" aria-controls="site-nav">☰ <span>Menu</span></button>
+  <a class="nav-cta" href="#pobierz">Pobierz za darmo ↗</a>
+ </div></header>
+ <main>
+  <section class="container hero" id="start">
+   <div class="hero-content"><span class="eyebrow">Dziennik QSO na Androida</span>
+    <h1>Łączności mijają.<br><em>Dobre wspomnienia</em><br>zostają w logu.</h1>
+    <p class="hero-copy">RadioLOG pomaga zapisywać łączności radiowe i odnajdywać je po czasie. Przeszukuj historię, wracaj do korespondentów i zobacz swoje QSO na mapie. Prosto, bez reklam i bez zbędnego zakładania konta.</p>
+    <div class="actions"><a class="btn btn-primary" href="https://github.com/DzikiDev/RadioLOG/releases" target="_blank" rel="noopener noreferrer">↓ Pobierz RadioLOG</a><a class="btn btn-ghost" href="#funkcje">Zobacz, co potrafi →</a></div>
+    <div class="download-note"><span>Bezpłatny</span><span>Bez reklam</span><span>CB · PMR 446 · 2 m · 70 cm</span></div>
+   </div>
+   <div class="hero-art" aria-label="Prawdziwe zrzuty ekranu aplikacji RadioLOG">
+    <div class="hero-orbit" aria-hidden="true"></div>
+    <div class="phone"><img src="assets/historia-mapa.webp" alt="RadioLOG — lista historii i mapa łączności"></div>
+    <div class="hero-map"><div class="hero-map-head"><span>Mapa Twoich QSO</span><span class="signal-pill">TX ↔ RX</span></div><img src="assets/mapa-qso.webp" alt="Mapa z punktami łączności"></div>
+    <div class="float-km"><small>Przykładowe najdalsze QSO</small><strong>44,5 km</strong></div>
+   </div>
+  </section>
+</div>
+<div class="mini-strip"><div class="container strip-row"><span>Jedno miejsce na Twoje</span><b>QSO</b><span>•</span><b>Korespondentów</b><span>•</span><b>Mapy i QRB</b><span>•</span><b>Historię</b></div></div>
+<section class="story-intro-section" id="historia">
+ <div class="container story-intro-grid">
+  <div class="story-intro-text">
+   <span class="tag">Kilka słów od autora</span>
+   <h2>Jak właściwie powstał <span>RadioLOG?</span></h2>
+   <p class="story-intro-lead">Wszystko zaczęło się całkiem zwyczajnie. Od wyjść z radiem w teren, paru zapisanych na kartce łączności i myśli: „Fajnie byłoby móc do nich łatwo wrócić”.</p>
+   <p>Chodziłem z radiem w góry, do lasu i w inne ciekawe miejsca, próbując nawiązać łączności. Po pewnym czasie chciałem sobie przypomnieć, z kim rozmawiałem, skąd nadawałem i jak daleko znajdował się rozmówca. Przeglądanie notatek nie zawsze było wygodne.</p>
+   <p>Rozejrzałem się za gotową aplikacją, ale nic nie pasowało mi do końca. Pomyślałem więc: <strong>„A może zrobię coś dla siebie?”</strong> I tak, bez wielkiego planu, powstał początek RadioLOG.</p>
+   <details class="story-more">
+    <summary>Przeczytaj dalszą część <span aria-hidden="true">⌄</span></summary>
+    <div class="story-more-body">
+     <p>Najpierw chciałem po prostu zapisywać QSO. Kiedy zacząłem korzystać z własnego notatnika, pojawiły się następne pomysły: wyszukiwanie po znaku i miejscu, baza korespondentów, mapa, obliczanie odległości i statystyki. Jedna rzecz pociągała za sobą kolejną.</p>
+     <p>W końcu doszedłem do wniosku, że jeśli mnie taka aplikacja się przydaje, może przyda się też komuś innemu. Dlatego udostępniam ją za darmo i bez reklam. Nie stoi za nią firma — to po prostu mój projekt rozwijany w wolnym czasie.</p>
+    </div>
+   </details>
+   <a class="story-read-link" href="historia.html">Poznaj całą historię RadioLOG <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="story-intro-art">
+   <div class="story-art-label">Od kartki do aplikacji</div>
+   <div class="story-note" aria-label="Przykładowy zapis łączności na kartce">
+    <span>DZIENNIK QSO</span>
+    <span>Data: 05.11.2026</span>
+    <span>Pasmo: 2 m &nbsp; • &nbsp; FM</span>
+    <span>Korespondent: SP9…</span>
+    <span>QRB: sprawdzić później</span>
+   </div>
+   <div class="story-to-phone" aria-hidden="true">↘</div>
+   <div class="story-screen"><img src="assets/filtry-qso.webp" alt="Prawdziwy ekran wyszukiwania łączności QSO w RadioLOG" loading="lazy"></div>
+   <div class="story-art-caption">Najpierw dla siebie. Potem dla innych. <strong>Za darmo i bez reklam.</strong></div>
+  </div>
+ </div>
+</section>
+<section class="section container" id="funkcje"><div class="section-head center"><span class="tag">Najważniejsze funkcje</span><h2>Zapisuj. Znajduj. Odkrywaj.</h2><p>To, co najcenniejsze w dzienniku łączności, staje się łatwe do odnalezienia — nawet po wielu miesiącach.</p></div>
+ <div class="features">
+  <article class="feature"><div class="feature-media phone-shot"><img src="assets/filtry-qso.webp" alt="Wyszukiwarka i filtry w historii QSO" loading="lazy"></div><div class="feature-body"><span class="feature-no">01 / SZUKAJ</span><h3>Odnajdź każde QSO</h3><p>Szukaj po znaku wywoławczym, imieniu, miejscu lub notatce. Filtruj historię według daty i pasma.</p></div></article>
+  <article class="feature"><div class="feature-media map"><img src="assets/mapa-qso.webp" alt="Mapa kontaktów i przebieg łączności" loading="lazy"></div><div class="feature-body"><span class="feature-no">02 / ZOBACZ</span><h3>Twoje QSO na mapie</h3><p>Sprawdzaj miejsca nadawania i korespondentów oraz odległości między stacjami w linii prostej.</p></div></article>
+  <article class="feature"><div class="feature-media"><img src="assets/korespondenci.webp" alt="Lista zapisanych korespondentów" loading="lazy"></div><div class="feature-body"><span class="feature-no">03 / WRACAJ</span><h3>Baza korespondentów</h3><p>Przeglądaj profile rozmówców i ich wcześniejsze łączności — bez przekopywania kolejnych stron notesu.</p></div></article>
+ </div>
+</section>
+<section class="paper-section" id="papier"><div class="container paper-grid">
+ <div class="paper-copy"><span class="tag">Tradycja i wygoda</span><h2>Kartka i długopis?<br>Jak najbardziej.</h2><p>Nie musisz rezygnować ze swojego sposobu notowania. W terenie zapisuj łączności na papierze, a później — choćby wieczorem w domu — dodaj je do RadioLOG, ustawiając prawdziwą datę i godzinę QSO.</p><p>RadioLOG nie odbiera przyjemności z pracy przez radio. Po prostu ułatwia odnalezienie rozmówcy, kiedy będziesz chciał wrócić do dawnej łączności.</p><span class="callout">Papierowy dziennik może zostać. Wygodna wyszukiwarka i mapa będą jego uzupełnieniem.</span></div>
+ <div class="paper-sheet" aria-label="Przykładowe notatki z dziennika papierowego"><strong>NOTATNIK QSO</strong><p>05.11.2026 — 09:23<br>2 m / FM<br>Bielsko-Biała → Żywiec<br>RST 59 / 59<br>Zapisać później w RadioLOG ✓</p><div class="paper-clip">✦ Bez pośpiechu</div></div>
+</div></section>
+<section class="section container" id="o-projekcie"><div class="detail-grid">
+ <div class="detail-visual"><img src="assets/podsumowanie.webp" alt="RadioLOG — graficzne podsumowanie łączności z mapą i statystykami" loading="lazy"></div>
+ <div><span class="tag">Twoje QSO w jednym obrazie</span><h2>Pochwal się swoimi łącznościami.</h2><p class="section-lead">Po lewej widzisz <strong>przykładową grafikę wygenerowaną przez RadioLOG</strong> — mapę łączności, statystyki, odległości i lokatory QTH zebrane w jednym obrazie.</p>
+  <p class="section-lead">Możesz wybrać <strong>konkretny dzień, zakres dat lub całą historię</strong>, a następnie zapisać gotową grafikę PNG albo wygodnie udostępnić ją np. na Facebooku. To świetny sposób, aby pokazać swoje radiowe osiągnięcia.</p>
+  <p class="privacy-tip">Przed udostępnieniem sprawdź, czy punkty na mapie nie zdradzają lokalizacji, których nie chcesz publikować.</p>
+  <div class="detail-list">
+   <div class="detail-point"><span class="point-icon">⌖</span><span><strong>Mapa, QRB i lokatory QTH</strong><small>Odległości między stacjami, pozycje na mapie i ośmioznakowe lokatory Maidenhead.</small></span></div>
+   <div class="detail-point"><span class="point-icon">▤</span><span><strong>Statystyki i podsumowania</strong><small>Wybierz okres: jeden dzień, zakres dat lub całą historię — i stwórz obraz PNG.</small></span></div>
+   <div class="detail-point"><span class="point-icon">⇩</span><span><strong>Twoje dane zostają u Ciebie</strong><small>Wpisy zapisywane są lokalnie. Kopię wykonasz do JSON, a historię wyeksportujesz do CSV.</small></span></div>
+  </div>
+ </div>
+ </div>
+</section>
+<section class="author-strip container" aria-label="O powstaniu RadioLOG"><div><span class="tag">Zrobiony przez pasjonata</span><h2>Nie produkt komercyjny. Po prostu przydatne narzędzie.</h2><p>RadioLOG powstał z własnej potrzeby wygodnego zapisywania i wyszukiwania łączności. Z czasem postanowiłem udostępnić go innym — bezpłatnie i bez reklam. Dla osób, które wolą notować na kartce, aplikacja może być przydatnym uzupełnieniem papierowego dziennika.</p></div><a class="text-link" href="historia.html">Czytaj moją historię →</a></section>
+<section class="section container" id="galeria" style="padding-top:15px"><div class="section-head"><span class="tag">Prawdziwe ekrany</span><h2>Zajrzyj do środka RadioLOG</h2><p>Bez makiet udających aplikację. Poniżej znajdziesz rzeczywiste zrzuty ekranów — kliknij, aby je powiększyć. Przedstawione QSO mają charakter przykładowy.</p></div>
+ <div class="gallery"><button type="button" class="gallery-item" data-screen="assets/filtry-qso.webp" data-title="Wyszukiwanie i filtry" aria-label="Powiększ: Wyszukiwanie i filtry"><img src="assets/filtry-qso.webp" alt="RadioLOG — Wyszukiwanie i filtry" loading="lazy"><b>Wyszukiwanie i filtry <span class="zoom">↗</span></b></button>
+<button type="button" class="gallery-item" data-screen="assets/lista-qso.webp" data-title="Historia zapisanych QSO" aria-label="Powiększ: Historia zapisanych QSO"><img src="assets/lista-qso.webp" alt="RadioLOG — Historia zapisanych QSO" loading="lazy"><b>Historia zapisanych QSO <span class="zoom">↗</span></b></button>
+<button type="button" class="gallery-item" data-screen="assets/korespondenci.webp" data-title="Baza korespondentów" aria-label="Powiększ: Baza korespondentów"><img src="assets/korespondenci.webp" alt="RadioLOG — Baza korespondentów" loading="lazy"><b>Baza korespondentów <span class="zoom">↗</span></b></button>
+<button type="button" class="gallery-item" data-screen="assets/mapa-w-aplikacji.webp" data-title="Mapa łączności" aria-label="Powiększ: Mapa łączności"><img src="assets/mapa-w-aplikacji.webp" alt="RadioLOG — Mapa łączności" loading="lazy"><b>Mapa łączności <span class="zoom">↗</span></b></button>
+<button type="button" class="gallery-item" data-screen="assets/dodawanie-qso.webp" data-title="Nowa łączność" aria-label="Powiększ: Nowa łączność"><img src="assets/dodawanie-qso.webp" alt="RadioLOG — Nowa łączność" loading="lazy"><b>Nowa łączność <span class="zoom">↗</span></b></button>
+<button type="button" class="gallery-item" data-screen="assets/lokalizacja-qso.webp" data-title="Lokalizacje i QRB" aria-label="Powiększ: Lokalizacje i QRB"><img src="assets/lokalizacja-qso.webp" alt="RadioLOG — Lokalizacje i QRB" loading="lazy"><b>Lokalizacje i QRB <span class="zoom">↗</span></b></button>
+<button type="button" class="gallery-item" data-screen="assets/podsumowanie.webp" data-title="Podsumowanie i statystyki" aria-label="Powiększ: Podsumowanie i statystyki"><img src="assets/podsumowanie.webp" alt="RadioLOG — Podsumowanie i statystyki" loading="lazy"><b>Podsumowanie i statystyki <span class="zoom">↗</span></b></button>
+<button type="button" class="gallery-item" data-screen="assets/kopia-zapasowa.webp" data-title="Kopie zapasowe i eksport" aria-label="Powiększ: Kopie zapasowe i eksport"><img src="assets/kopia-zapasowa.webp" alt="RadioLOG — Kopie zapasowe i eksport" loading="lazy"><b>Kopie zapasowe i eksport <span class="zoom">↗</span></b></button>
+<button type="button" class="gallery-item" data-screen="assets/grafika-qso.webp" data-title="Grafika podsumowania QSO" aria-label="Powiększ: Grafika podsumowania QSO"><img src="assets/grafika-qso.webp" alt="RadioLOG — Grafika podsumowania QSO" loading="lazy"><b>Grafika podsumowania QSO <span class="zoom">↗</span></b></button>
+<button type="button" class="gallery-item" data-screen="assets/dane-demo.webp" data-title="Dane demonstracyjne" aria-label="Powiększ: Dane demonstracyjne"><img src="assets/dane-demo.webp" alt="RadioLOG — Dane demonstracyjne" loading="lazy"><b>Dane demonstracyjne <span class="zoom">↗</span></b></button></div><div class="credits">Mapy widoczne na zrzutach: © OpenStreetMap contributors.</div>
+</section>
+<section class="more-section"><div class="container more-grid">
+ <div class="more-card"><div class="mark">📻</div><b>Różne pasma, jedna historia</b><p>2 m, 70 cm, CB i PMR 446 — zapisuj kontakty niezależnie od sposobu prowadzenia łączności.</p></div>
+ <div class="more-card"><div class="mark">🧭</div><b>Sprawdź przed pierwszym QSO</b><p>Prosta ściąga wyjaśnia skróty QSO, TX/RX, QRB oraz podstawowe pojęcia radiowe.</p></div>
+ <div class="more-card"><div class="mark">✨</div><b>Wypróbuj bez własnych wpisów</b><p>Dodaj dane demonstracyjne, aby zobaczyć historię, korespondentów, mapę i statystyki.</p></div>
+ </div></section>
+<section class="support-wrap" id="wspieraj"><div class="container"><div class="support-panel"><div class="support-cup" aria-hidden="true">☕</div><div class="support-text"><span class="tag">Dobrowolne wsparcie</span><h2>Podoba Ci się RadioLOG? Postaw autorowi kawę.</h2><p>RadioLOG jest i pozostaje darmowy, bez reklam i obowiązkowych opłat. Jeśli chcesz docenić czas poświęcony na jego rozwój, możesz dobrowolnie wesprzeć projekt. Każda kawa jest miłym gestem — nie jest wymagana do korzystania z aplikacji.</p></div><a class="btn btn-coffee" href="https://buycoffee.to/wojtasp" target="_blank" rel="noopener noreferrer">☕ Wesprzyj przez BuyCoffee ↗</a></div></div></section>
+<section class="community container"><div class="community-head"><span class="tag">Tworzymy RadioLOG razem</span><h2>Masz pomysł albo zauważyłeś błąd?</h2><p>Twoje uwagi pomagają rozwijać aplikację. Opisz pomysł na nową funkcję, zgłoś problem albo napisz bezpośrednio do autora.</p><div class="community-actions"><a class="btn btn-primary" href="pomoz.html">✉ Pomóż rozwijać RadioLOG</a><a class="btn btn-outline" href="kontakt.html">Kontakt z autorem →</a></div></div><aside class="facebook-callout" aria-label="Oficjalna strona RadioLOG na Facebooku"><div class="facebook-badge">f</div><div class="facebook-copy"><span class="fb-mini">Społeczność i aktualności</span><h3>Dołącz do RadioLOG na Facebooku</h3><p>Zobacz nowe wersje aplikacji, grafiki podsumowań QSO, krótkie aktualności i informacje o rozwoju projektu — wszystko w jednym miejscu.</p><ul class="facebook-points"><li>nowe wydania i zapowiedzi</li><li>grafiki QSO do udostępniania</li><li>szybki kontakt z projektem</li></ul></div><a class="btn btn-facebook facebook-btn" href="https://www.facebook.com/share/1P5EZs68ao/" target="_blank" rel="noopener noreferrer">Odwiedź stronę projektu ↗</a></aside></section>
+<section class="download-section container" id="pobierz"><div class="download-block"><div><span class="eyebrow">Gotowy na pierwsze QSO?</span><h2>Wypróbuj RadioLOG.</h2><p>Aplikacja jest bezpłatna i dostępna jako plik APK na GitHub. Na stronie wydań znajdziesz najnowszą opublikowaną wersję.</p></div><a class="btn btn-light" href="https://github.com/DzikiDev/RadioLOG/releases" target="_blank" rel="noopener noreferrer">↓ Przejdź do pobierania</a></div>
+ <div class="faq"><details><summary>Czy potrzebuję konta w aplikacji?</summary><p>Nie. RadioLOG działa bez obowiązkowego logowania. Dane QSO są zapisywane lokalnie na urządzeniu.</p></details><details><summary>Czy mapa działa bez internetu?</summary><p>Nie. Do wyświetlania mapy potrzebne jest połączenie z internetem. Same wpisy QSO przechowywane są lokalnie.</p></details><details><summary>Czy RadioLOG zastępuje papierowy dziennik?</summary><p>Nie musi. Możesz najpierw zanotować QSO na kartce, a dopiero później wprowadzić je do aplikacji z właściwą datą i godziną.</p></details><details><summary>Gdzie zgłaszać uwagi i błędy?</summary><p>Projekt ma repozytorium na <a style="color:#216dd5;font-weight:700" href="https://github.com/DzikiDev/RadioLOG" target="_blank" rel="noopener noreferrer">GitHub</a>. Możesz już teraz wysłać <a href="pomoz.html" style="color:#216dd5;font-weight:750">zgłoszenie błędu lub pomysłu</a> albo skorzystać z formularza <a href="kontakt.html" style="color:#216dd5;font-weight:750">kontaktowego</a>.</p></details></div>
+</section>
+</main>
+<footer class="footer"><div class="container footer-row"><div>© 2026 RadioLOG — projekt pasjonata dla pasjonatów. Bez reklam.</div><div class="footer-links"><a href="historia.html">Historia</a><a href="pomoz.html">Pomóż rozwijać</a><a href="kontakt.html">Kontakt</a><a href="https://www.facebook.com/share/1P5EZs68ao/" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="prywatnosc.html">Prywatność</a><a href="https://github.com/DzikiDev/RadioLOG/releases" target="_blank" rel="noopener noreferrer">Pobierz APK ↗</a></div></div></footer>
+<dialog class="modal" id="screen-dialog" aria-labelledby="dialog-title"><div class="modal-bar"><span class="modal-title" id="dialog-title">Zrzut ekranu RadioLOG</span><button type="button" class="modal-close" id="dialog-close" aria-label="Zamknij podgląd">×</button></div><div class="modal-body"><img class="modal-image" id="dialog-image" alt=""></div></dialog>
+</body></html>
