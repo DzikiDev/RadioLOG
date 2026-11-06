@@ -127,3 +127,66 @@ h1{font-size:clamp(39px,4.65vw,67px);line-height:1.075;letter-spacing:-2.7px;mar
 @media(max-width:1050px){.story-intro-grid{gap:30px}.story-article-layout{grid-template-columns:minmax(0,1fr) 240px;gap:16px}.nav-links{gap:11px}}
 @media(max-width:800px){.story-intro-section{padding:60px 0}.story-intro-grid{grid-template-columns:1fr;gap:24px}.story-intro-art{max-width:600px;width:100%;margin:auto}.story-article-layout{grid-template-columns:1fr}.story-sidebar{grid-template-columns:repeat(2,1fr)}.story-main{padding:40px 0 65px}}
 @media(max-width:540px){.story-intro-section{padding:48px 0 60px}.story-intro-text h2{font-size:33px}.story-intro-text .story-intro-lead{font-size:16px}.story-intro-text p{font-size:14px}.story-intro-art{height:335px}.story-note{width:50%;min-height:169px;font-size:10px;gap:9px;padding:15px 10px 11px 15px}.story-screen{height:229px;right:5%;top:14%}.story-to-phone{font-size:37px;left:54%;top:53%}.story-art-caption{bottom:14px;left:14px;right:14px;font-size:11px;padding:10px}.story-art-label{font-size:10px}.story-article{padding:22px 19px}.story-article p{font-size:15px}.story-article .story-first{font-size:17px}.story-sidebar{grid-template-columns:1fr}.story-picture{padding:15px 10px 12px}.story-article-actions .btn{width:100%}}
+
+
+/* RadioLOG V5.2 — Partnerzy / Współpraca */
+.partner-spotlight{padding:80px 0;background:linear-gradient(180deg,#f2f7ff 0%,#fff 100%);border-top:1px solid #e2ebf7;border-bottom:1px solid #e2ebf7}
+.partner-spotlight-head{max-width:825px;margin:0 auto 36px;text-align:center}
+.partner-spotlight-head h2{font-size:clamp(30px,4vw,46px);line-height:1.14;color:#12365c;letter-spacing:-1.3px;margin:15px 0 17px}
+.partner-spotlight-head h2 span{color:#256cc3}
+.partner-spotlight-head p{color:#5c738b;line-height:1.8;font-size:17px}
+.partner-spotlight-grid{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:22px;align-items:stretch}
+.partner-intro-panel{background:linear-gradient(155deg,#123c66 0%,#0b233f 100%);padding:clamp(24px,3.5vw,43px);border-radius:23px;color:#f4faff;box-shadow:0 18px 40px rgba(16,51,90,.14)}
+.partner-symbol{font-size:31px;display:flex;width:65px;height:65px;align-items:center;justify-content:center;background:rgba(255,255,255,.12);border-radius:18px;margin-bottom:20px}
+.partner-intro-panel h3{font-size:clamp(24px,2.6vw,32px);line-height:1.2;margin:0 0 17px;color:#fff}
+.partner-intro-panel p{font-size:15px;line-height:1.87;color:#cbdff0;margin:0 0 20px}
+.partner-benefits{list-style:none;margin:10px 0 26px;padding:0;display:grid;gap:14px}
+.partner-benefits li{color:#eaf4ff;font-size:14px;line-height:1.5;padding-left:28px;position:relative}
+.partner-benefits li:before{content:'✓';position:absolute;left:0;top:0;background:rgba(94,198,239,.17);color:#8bd7ff;font-weight:900;width:19px;height:19px;border-radius:50%;text-align:center;line-height:19px}
+.partner-more-link{display:inline-flex;align-items:center;gap:9px;font-weight:750;color:#a8e4ff;text-decoration:none;font-size:14px;border-bottom:1px solid rgba(168,228,255,.35);padding-bottom:5px}
+.partner-more-link:hover{color:#fff}
+.partner-form-panel{background:white;border:1px solid #dfeaf6;border-radius:23px;padding:clamp(21px,3vw,34px);box-shadow:0 20px 50px rgba(16,51,90,.065)}
+.partner-form-eyebrow{font-size:11px;letter-spacing:.13em;text-transform:uppercase;font-weight:850;color:#2c78cf}
+.partner-form-panel h3{font-size:26px;color:#173e65;margin:7px 0 8px}
+.partner-form-panel>p{font-size:14px;line-height:1.75;color:#61758a;margin-bottom:18px}
+.partner-form .form-field{margin-bottom:12px}
+.partner-form .form-row{gap:12px}
+.partner-form .field-area{min-height:110px}
+.partner-form .form-label{font-size:12px}
+.partner-form .field{max-width:100%}
+.partner-form .form-privacy{margin:12px 0 16px;font-size:12px;line-height:1.6}
+.partner-form-help{font-size:12px;color:#687f96;line-height:1.7;margin:13px 0 0}
+.partner-form-help a{color:#1764af}
+.partner-submit{max-width:100%;white-space:normal}
+.partner-home-list,.partner-page-list{margin-top:32px;background:#fff;border:1px solid #e0eaf4;border-radius:23px;padding:clamp(20px,3vw,30px)}
+.partner-list-heading{display:flex;gap:15px;align-items:center;justify-content:space-between;margin-bottom:15px;flex-wrap:wrap}
+.partner-list-heading h3,.partner-list-heading h2{font-size:clamp(22px,3vw,27px);color:#1b4065;margin:5px 0}
+.partner-list-heading a{font-size:14px;font-weight:750;color:#176cbe;text-decoration:none}
+.partner-empty{display:flex;align-items:center;gap:17px;background:#f3f8ff;border:1px dashed #a6bfda;border-radius:16px;padding:22px}
+.partner-empty-symbol{color:#5184b8;font-size:35px;font-weight:750;flex:0 0 55px;display:flex;align-items:center;justify-content:center;background:#e2eefc;border-radius:13px;height:55px}
+.partner-empty strong{font-size:16px;color:#1e476e}
+.partner-empty p{font-size:14px;line-height:1.6;color:#617b93;margin:6px 0 0}
+.partner-subhero h1{max-width:1000px;font-size:clamp(38px,5vw,54px)}
+.partner-page-main{padding:64px 0 90px}
+.partner-page-lead{display:grid;grid-template-columns:1.13fr .87fr;gap:36px;align-items:start}
+.partner-page-lead h2{font-size:clamp(27px,3.3vw,39px);line-height:1.18;letter-spacing:-.7px;color:#193e63;margin:15px 0}
+.partner-page-lead p{font-size:15px;line-height:1.9;color:#5a7189;margin:0 0 16px}
+.partner-page-points{display:grid;gap:13px}
+.partner-page-points>div{background:#f2f7fc;border:1px solid #e0eaf5;border-radius:15px;padding:18px 20px}
+.partner-page-points>div>span{font-size:12px;font-weight:850;color:#2274bd;letter-spacing:.06em}
+.partner-page-points strong{font-size:16px;color:#23486b;margin-left:12px}
+.partner-page-points p{font-size:13px;margin:8px 0 0}
+.partner-full-contact{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:24px;margin-top:48px;align-items:start}
+.partner-form-full h2{font-size:32px;color:#204c78;margin:11px 0}
+.partner-form-full>.partner-form{margin-top:22px}
+.partner-contact-aside{display:grid;gap:16px}
+.partner-aside-card{background:#f4f8fc;border:1px solid #e1eaf4;border-radius:19px;padding:24px}
+.partner-aside-card .partner-symbol{background:#e2eefc;margin-bottom:13px}
+.partner-aside-card h3{font-size:20px;color:#20456d;margin:0 0 10px}
+.partner-aside-card p{font-size:14px;line-height:1.8;color:#648097;margin:0 0 10px}
+.partner-email{font-weight:800;color:#1260af;overflow-wrap:anywhere}
+.partner-list-preface{font-size:15px;color:#607992;line-height:1.8;margin:0 0 16px}
+.partner-page-bottom{margin-top:28px;padding:24px 28px;border-radius:16px;background:#edf4fc;color:#476781;font-size:14px;line-height:1.7}
+.partner-page-bottom a{font-weight:800;color:#1767b7;text-decoration:none}
+@media(max-width:940px){.partner-spotlight-grid,.partner-page-lead,.partner-full-contact{grid-template-columns:1fr}.partner-contact-aside{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.partner-spotlight{padding:52px 0}.partner-spotlight-head p{font-size:15px}.partner-page-main{padding:42px 0 65px}.partner-contact-aside{grid-template-columns:1fr}.partner-empty{align-items:flex-start;gap:13px;padding:17px}.partner-empty-symbol{flex-basis:40px;width:40px;height:40px;font-size:26px}.partner-form .form-row{grid-template-columns:1fr}.partner-intro-panel{padding:28px 23px}.partner-form-panel{padding:24px 19px}}

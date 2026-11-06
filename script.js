@@ -31,7 +31,7 @@
   form.addEventListener('submit', event => {
    event.preventDefault();
    const box = form.querySelector('.preview-feedback');
-   if (box) {box.classList.add('active');box.textContent = 'To podgląd lokalny. Formularz wygląda i sprawdza pola poprawnie, ale nie wysyła wiadomości. Wysyłkę uruchomimy na opublikowanej stronie po potwierdzeniu adresu odbiorczego w FormSubmit.';box.scrollIntoView({block:'nearest',behavior:'smooth'});}
+   if (box) {box.classList.add('active');box.textContent = 'To podgląd lokalny. Formularz wygląda i sprawdza pola poprawnie, ale nie wysyła wiadomości. Na opublikowanej stronie formularz prześle wiadomość do autora RadioLOG przez zewnętrzną usługę.';box.scrollIntoView({block:'nearest',behavior:'smooth'});}
   });
  });
 })();
