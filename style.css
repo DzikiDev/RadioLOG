@@ -190,3 +190,12 @@ h1{font-size:clamp(39px,4.65vw,67px);line-height:1.075;letter-spacing:-2.7px;mar
 .partner-page-bottom a{font-weight:800;color:#1767b7;text-decoration:none}
 @media(max-width:940px){.partner-spotlight-grid,.partner-page-lead,.partner-full-contact{grid-template-columns:1fr}.partner-contact-aside{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.partner-spotlight{padding:52px 0}.partner-spotlight-head p{font-size:15px}.partner-page-main{padding:42px 0 65px}.partner-contact-aside{grid-template-columns:1fr}.partner-empty{align-items:flex-start;gap:13px;padding:17px}.partner-empty-symbol{flex-basis:40px;width:40px;height:40px;font-size:26px}.partner-form .form-row{grid-template-columns:1fr}.partner-intro-panel{padding:28px 23px}.partner-form-panel{padding:24px 19px}}
+
+/* RadioLOG V5.3 - official logo, based on author's artwork */
+.brand .brand-logo{display:block;width:50px;height:50px;object-fit:contain;flex:0 0 auto;border-radius:50%;filter:drop-shadow(0 2px 7px rgba(19,152,250,.17))}
+.hero-brand-line{display:flex;align-items:center;gap:18px;margin-bottom:13px}
+.hero-brand-logo{display:block;width:84px;height:84px;flex:0 0 84px;object-fit:contain;border-radius:50%;filter:drop-shadow(0 9px 18px rgba(0,0,0,.25))}
+.footer-signature{display:inline-flex;align-items:center;gap:11px}
+.footer-signature img{width:35px;height:35px;object-fit:contain;border-radius:50%;flex-shrink:0}
+@media(max-width:800px){.brand .brand-logo{width:45px;height:45px}.hero-brand-logo{width:74px;height:74px;flex-basis:74px}}
+@media(max-width:540px){.brand .brand-logo{width:42px;height:42px}.hero-brand-line{gap:12px;margin-bottom:9px}.hero-brand-logo{width:66px;height:66px;flex-basis:66px}}
