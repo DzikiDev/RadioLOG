@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "messages": [
+    {
+      "id": "przyklad-176-001",
+      "title": "Przykładowe ogłoszenie",
+      "body": "To przykład w nowym trybie wyświetlenia 5 razy na wersję aplikacji.",
+      "type": "important",
+      "mode": "repeat_n",
+      "maxDisplays": 5,
+      "date": "2026-11-04",
+      "expires": "",
+      "url": ""
+    }
+  ]
+}
